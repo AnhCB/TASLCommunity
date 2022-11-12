@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .container {
+      position: relative;
+
+    }
+    .container1 {
+      position: relative;
+
+    }
+    .image {
+      border-radius:40px;
+      opacity: 1;
+      width:100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .middle1 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container:hover .image {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+    .container1:hover .image {
+      opacity: 0.3;
+    }
+
+    .container1:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      position: relative;
+      background-color: transparent;
+      color: #7289d9;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .text {
+      transition: all .5s ease;
+      color: 7289d9;
+      border: 2px solid #7289d9;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      background-color: transparent;
+      padding: 10px;
+      outline: none;
+      border-radius: 6px;
+
+    }
+
+    .text:hover {
+      color: white;
+      background-color: #7289d9;
+    }
+
+
+
+    .text1 {
+      position: relative;
+      background-color: transparent;
+      color: green;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .text1 {
+      transition: all .5s ease;
+      color: green;
+      border: 2px solid green;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      background-color: transparent;
+      padding: 10px;
+      outline: none;
+      border-radius: 6px;
+
+    }
+
+    .text1:hover {
+      color: white;
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="white-section" id="social-media">
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="container col-lg-5 col-md-6">
+          <img src="https://sparkcdnwus2.azureedge.net/sparkimageassets/XPDC2RH70K22MN-08afd558-a61c-4a63-9171-d3f199738e9f" alt="Avatar" class="image">
+          <div class="middle">
+            <a href="https://discord.com/invite/yTaggKqH" class="text">Join Us!</a>
+          </div>
+        </div>
+
+        <div class="container col-lg-5 col-md-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/2._BAND_Icon.png" alt="Avatar" class="image">
+          <div class="middle">
+            <a href="https://band.us/n/a4a989Ec5742r" class="text1">Join Us!</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  </div>
+  </section>
+</body>
+
+</html>

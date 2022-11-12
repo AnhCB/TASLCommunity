@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .container {
+      position: relative;
+
+    }
+    .image-txtbook {
+
+      opacity: 1;
+      width:100%;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+
+    .container:hover .image-txtbook {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+  }
+
+    .txtbook {
+      position: relative;
+      background-color: white;
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .txtbook {
+      transition: all .5s ease;
+      color: black;
+      border: 2px solid black;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      background-color: white;
+      padding: 10px;
+      outline: none;
+      border-radius: 6px;
+
+    }
+
+    .txtbook:hover {
+      color: white;
+      background-color: black;
+    }
+
+
+
+    .txtbook1 {
+      position: relative;
+      color: black;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .txtbook1 {
+      transition: all .5s ease;
+      color: black;
+      border: 2px solid black;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      font-size: 17px;
+      background-color: white;
+      padding: 10px;
+      outline: none;
+      border-radius: 6px;
+
+    }
+
+    .txtbook1:hover {
+      color: white;
+      background-color: black;
+    }
+
+    .text-container {
+      position: relative;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <section class="book-section" id="textbooks">
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="container col-lg-5">
+          <img src="https://m.media-amazon.com/images/I/41GDVjFSK9S._SX384_BO1,204,203,200_.jpg" alt="textbook" class="image-txtbook">
+          <div class="middle">
+            <a href="https://www.amazon.com/Cybersecurity-Fundamentals-Study-Guide-3rd/dp/1604207515/ref=sr_1_1?crid=HFYDZ3XOE358&keywords=Cybersecurity+Fundamentals+Study+Guide%2C+3rd+Edition&qid=1668118207&sprefix=cybersecurity+fundamentals+study+guide%2C+3rd+edition%2Caps%2C93&sr=8-1" class="txtbook">Learn More</a>
+          </div>
+        </div>
+
+        <div class="container col-lg-5">
+          <img src="https://m.media-amazon.com/images/P/B096D1LGSK.01._SCLZZZZZZZ_SX500_.jpg" alt="textbook" class="image-txtbook">
+          <div class="middle">
+            <a href="https://www.amazon.com/CompTIA-Security-Get-Certified-Ahead/dp/B096D1LGSK/ref=sr_1_1?crid=1SFWSDLWWIJNU&keywords=CompTIA+Security%2B+Get+Certified+Get+Ahead%3A+SY0-601+Study+Guide&qid=1649767011&sprefix=comptia+security%2B+get+certified+get+ahead+sy0-601+study+guide%2Caps%2C74&sr=8-1" class="txtbook1">Learn More</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  </div>
+  </section>
+</body>
+
+</html>
